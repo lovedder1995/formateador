@@ -1,0 +1,57 @@
+[
+    {
+        "sector": ".Configuración_de_ESLint",
+        "nodos": [
+            {
+                "conexión": [
+                    "#Ajustes_recomendados_para_JavaScript",
+                    ".@eslint/js"
+                ]
+            },
+            "#Archivos_para_analizar",
+            {
+                "sector": "#JavaScript",
+                "nodos": [
+                    "#Versión",
+                    "#Sistema_de_módulos",
+                    {
+                        "conexión": [
+                            "#Entornos",
+                            ".globals"
+                        ]
+                    }
+                ]
+            },
+            {
+                "sector": "#Extensiones",
+                "nodos": [
+                    {
+                        "conexión": [
+                            "#Formato_del_código",
+                            ".@stylistic/eslint-plugin"
+                        ]
+                    }
+                ]
+            },
+            {
+                "sector": "#Reglas",
+                "nodos": [
+                    "#Regla-Formato_del_código"
+                ]
+            }
+        ]
+    },
+    {
+        "sector": "#Formateador",
+        "nodos": [
+            {
+                "conexión": [
+                    "#Configuración",
+                    ".Configuración_de_ESLint"
+                ]
+            },
+            "#Archivos_que_deben_ser_ignorados",
+            "#Formatear"
+        ]
+    }
+]
