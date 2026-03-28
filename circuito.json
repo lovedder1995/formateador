@@ -10,46 +10,99 @@
                     ]
                 },
                 "#Archivos_que_deben_ser_ignorados",
-                "#Formatear"
-            ]
-        },
-        "nodos": {
-            "sector": ".Configuración_de_ESLint",
-            "nodos": [
                 {
                     "conexión": [
-                        "#Ajustes_recomendados_para_JavaScript",
-                        ".@eslint/js"
+                        "#Formatear_JavaScript",
+                        ".eslint"
                     ]
                 },
-                "#Archivos_para_analizar",
                 {
-                    "sector": "#JavaScript",
+                    "sector": "#Formatear_estilos",
                     "nodos": [
-                        "#Versión",
-                        "#Sistema_de_módulos",
                         {
-                            "conexión": [
-                                "#Entornos",
-                                ".globals"
+                            "sector": "#Archivos_que_podrían_contener_estilos",
+                            "nodos": [
+                                "#No_es_un_archivo_JavaScript",
+                                {
+                                    "conexión": [
+                                        "#Está_en_la_lista_de_archivos_que_deben_ser_ignorados",
+                                        ".ignore"
+                                    ]
+                                },
+                                {
+                                    "sector": "#Líneas",
+                                    "nodos": [
+                                        "#No_es_un_estilo"
+                                    ]
+                                },
+                                {
+                                    "conexión": [
+                                        "#Estilos",
+                                        ".Declaraciones_y_estilos"
+                                    ]
+                                }
                             ]
                         }
                     ]
-                },
-                {
-                    "sector": "#Extensiones",
-                    "nodos": {
-                        "conexión": [
-                            "#Formato_del_código",
-                            ".@stylistic/eslint-plugin"
-                        ]
-                    }
-                },
-                {
-                    "sector": "#Reglas",
-                    "nodos": "#Regla-Formato_del_código"
                 }
             ]
-        }
+        },
+        "nodos": [
+            {
+                "sector": ".Configuración_de_ESLint",
+                "nodos": [
+                    {
+                        "conexión": [
+                            "#Ajustes_recomendados_para_JavaScript",
+                            ".@eslint/js"
+                        ]
+                    },
+                    "#Archivos_para_analizar",
+                    {
+                        "sector": "#JavaScript",
+                        "nodos": [
+                            "#Versión",
+                            "#Sistema_de_módulos",
+                            {
+                                "conexión": [
+                                    "#Entornos",
+                                    ".globals"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "sector": "#Extensiones",
+                        "nodos": {
+                            "conexión": [
+                                "#Formato_del_código",
+                                ".@stylistic/eslint-plugin"
+                            ]
+                        }
+                    },
+                    {
+                        "sector": "#Reglas",
+                        "nodos": "#Regla-Formato_del_código"
+                    }
+                ]
+            },
+            {
+                "sector": ".Declaraciones_y_estilos",
+                "nodos": [
+                    "#Dibujar",
+                    "#Texto",
+                    "#Fondo",
+                    "#Dimensiones",
+                    "#Holgura",
+                    "#Margen",
+                    "#Contorno",
+                    "#Redondeo_de_las_esquinas",
+                    "#Distribución_de_los_hijos",
+                    "#Espacio_entre_los_hijos",
+                    "#Ubicación",
+                    "#Espacio_entre_los_lados_del_elemento_y_los_lados_de_su_espacio_reservado_o_su_ancestro_con_ubicación_relativa_más_cercano"
+                ]
+            }
+        ]
     }
 ]

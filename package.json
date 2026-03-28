@@ -1,6 +1,6 @@
 {
   "name": "formateador",
-  "version": "2026.3.19-1",
+  "version": "2026.3.27-1",
   "type": "module",
   "bin": {
     "formatear": "Formateador.js"
@@ -13,9 +13,10 @@
     "@eslint/js": "^10.0.1",
     "@stylistic/eslint-plugin": "^5.8.0",
     "eslint": "^10.0.0",
-    "globals": "^17.3.0"
+    "globals": "^17.3.0",
+    "ignore": "^7.0.5"
   },
   "devDependencies": {
-    "generador-de-circuitos": "github:lovedder1995/generador-de-circuitos#2026.3.19-1"
+    "generador-de-circuitos": "github:lovedder1995/generador-de-circuitos#2026.3.20-1"
   }
 }
