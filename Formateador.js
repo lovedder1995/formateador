@@ -27,7 +27,7 @@ const __dirname = dirname(__filename)
 /* ciertos archivos o carpetas deben ser ignorados. */ let patrones_a_ignorar = []
 
 /* En ese caso, */ if (ignorado_por_el_formateador) {
-    /* el archivo */ const contenido = readFileSync(ignorado_por_el_formateador, "utf8")
+    /* el archivo */ const contenido = readFileSync(join(process.cwd(), ".ignorado_por_el_formateador"), "utf8")
     /* tendrá un patrón por línea. */ patrones_a_ignorar = contenido.split("\n").map(linea => linea.trim())
         /* Las líneas que comiencen con # son comentarios. */ .filter(linea => linea && !linea.startsWith("#")) }
 

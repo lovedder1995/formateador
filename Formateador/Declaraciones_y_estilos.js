@@ -6,17 +6,6 @@
 */
 export default [{
     /*
-    | #Dibujar Dibujar
-    -----------
-    - Dibujar -
-    -----------
-    */
-    estilo: "Dibujar: Sí.",
-    declaración: "display: \"flex\"" }, {
-
-    estilo: "Dibujar: No.",
-    declaración: "display: \"none\"" }, {
-    /*
     | #Texto Texto
     ---------
     - Texto -
@@ -95,13 +84,13 @@ export default [{
     estilo: "Tipo de contorno:",
     declaración: "outlineStyle:" }, {
 
-    estilo: "Grosor del contorno:",
-    declaración: "outlineWidth:" }, {
-
     estilo: "Color del contorno:",
     declaración: "outlineColor:" }, {
 
-    estilo: "Desplazamiento del contorno:",
+    estilo: "Grosor del contorno:",
+    declaración: "outlineWidth:" }, {
+
+    estilo: "Distancia entre el elemento y su contorno:",
     declaración: "outlineOffset:" }, {
     /*
     | #Redondeo_de_las_esquinas Redondeo de las esquinas
@@ -153,6 +142,17 @@ export default [{
     estilo: "Distribución sobre el eje transversal: De extremo a extremo.",
     declaración: "alignItems: \"stretch\"" }, {
     /*
+    | #Dibujar Dibujar
+    -----------
+    - Dibujar -
+    -----------
+    */
+    estilo: "Dibujar: Sí.",
+    declaración: "display: \"flex\"" }, {
+
+    estilo: "Dibujar: No.",
+    declaración: "display: \"none\"" }, {
+    /*
     | #Espacio_entre_los_hijos Espacio entre los hijos
     ---------------------------
     - Espacio entre los hijos -
@@ -181,19 +181,27 @@ export default [{
     estilo: "Ubicación: Con espacio reservado, relativa a su espacio reservado y a la ventana de dibujo.",
     declaración: "position: \"sticky\"" }, {
     /*
-    | #Espacio_entre_los_lados_del_elemento_y_los_lados_de_su_espacio_reservado_o_su_ancestro_con_ubicación_relativa_más_cercano Espacio entre los lados del elemento y<br/>los lados de su espacio reservado o su<br/>ancestro con ubicación relativa más cercano
-    -----------------------------------------------------------------------------------------------------------------------------
-    - Espacio entre los lados del elemento y los lados de su espacio reservado o su ancestro con ubicación relativa más cercano -
-    -----------------------------------------------------------------------------------------------------------------------------
+    | #Área Área
+    --------
+    - Área -
+    --------
     */
-    estilo: "Espacio entre el lado superior del elemento y el lado superior de su espacio reservado o su ancestro con ubicación relativa más cercano:",
+    estilo: "Área: La de su ancestro con ubicación relativa más cercano.",
+    declaración: "left: \"0\", right: \"0\", top: \"0\", bottom: \"0\"" }, {
+    /*
+    | #Espacio_entre_los_lados_del_elemento_y_los_lados_de_su_espacio_reservado_o_su_ancestro_con_ubicación_relativa_más_cercano Espacio entre los lados del elemento y<br/>los lados de su espacio reservado o su<br/>ancestro con ubicación relativa más cercano
+    -------------------------------------------------------------------------------------------------------------------------------------
+    - Ubicación de los lados del elemento relativa a los lados de su espacio reservado o su ancestro con ubicación relativa más cercano -
+    -------------------------------------------------------------------------------------------------------------------------------------
+    */
+    estilo: "Ubicación del lado superior del elemento relativa al lado superior de su espacio reservado o su ancestro con ubicación relativa más cercano:",
     declaración: "top:" }, {
 
-    estilo: "Espacio entre el lado inferior del elemento y el lado inferior de su espacio reservado o su ancestro con ubicación relativa más cercano:",
+    estilo: "Ubicación del lado inferior del elemento relativa al lado inferior de su espacio reservado o su ancestro con ubicación relativa más cercano:",
     declaración: "bottom:" }, {
 
-    estilo: "Espacio entre el lado izquierdo del elemento y el lado izquierdo de su espacio reservado o su ancestro con ubicación relativa más cercano:",
+    estilo: "Ubicación del lado izquierdo del elemento relativa al lado izquierdo de su espacio reservado o su ancestro con ubicación relativa más cercano:",
     declaración: "left:" }, {
 
-    estilo: "Espacio entre el lado derecho del elemento y el lado derecho de su espacio reservado o su ancestro con ubicación relativa más cercano:",
+    estilo: "Ubicación del lado derecho del elemento relativa al lado derecho de su espacio reservado o su ancestro con ubicación relativa más cercano:",
     declaración: "right:" } ]
