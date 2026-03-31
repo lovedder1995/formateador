@@ -47,6 +47,9 @@ export default [{
     - Holgura -
     -----------
     */
+    estilo: "Holgura:",
+    declaración: "padding:" }, {
+
     estilo: "Holgura izquierda:",
     declaración: "paddingLeft:" }, {
 
@@ -64,6 +67,9 @@ export default [{
     - Margen -
     ----------
     */
+    estilo: "Margen:",
+    declaración: "margin:" }, {
+
     estilo: "Margen superior:",
     declaración: "marginTop:" }, {
 

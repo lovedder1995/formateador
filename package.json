@@ -1,6 +1,6 @@
 {
   "name": "formateador",
-  "version": "2026.3.30-1",
+  "version": "2026.3.31-1",
   "type": "module",
   "bin": {
     "formatear": "Formateador.js"
