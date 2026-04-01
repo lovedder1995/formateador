@@ -154,10 +154,10 @@ export default [{
     -------------------------------------
     */
     estilo: "Factor de expansión en el espacio sobrante:",
-    declaración: "flex-grow:" }, {
+    declaración: "flexGrow:" }, {
 
     estilo: "Factor de contracción por espacio faltante:",
-    declaración: "flex-shrink:" }, {
+    declaración: "flexShrink:" }, {
     /*
     | #Dibujar Dibujar
     -----------
