@@ -148,6 +148,17 @@ export default [{
     estilo: "Distribución sobre el eje transversal: De extremo a extremo.",
     declaración: "alignItems: \"stretch\"" }, {
     /*
+    | #Factor_de_contracción_y_expansión Factor de contracción y expansión
+    -------------------------------------
+    - Factor de contracción y expansión -
+    -------------------------------------
+    */
+    estilo: "Factor de expansión en el espacio sobrante:",
+    declaración: "flex-grow:" }, {
+
+    estilo: "Factor de contracción por espacio faltante:",
+    declaración: "flex-shrink:" }, {
+    /*
     | #Dibujar Dibujar
     -----------
     - Dibujar -

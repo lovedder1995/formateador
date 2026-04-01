@@ -90,6 +90,8 @@
                 "sector": ".Declaraciones_y_estilos",
                 "nodos": [
                     "#Dibujar",
+                    "#Factor_de_contracción_y_expansión",
+                    "#Área",
                     "#Texto",
                     "#Fondo",
                     "#Dimensiones",
