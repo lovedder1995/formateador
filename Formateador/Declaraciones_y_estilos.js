@@ -39,8 +39,20 @@ export default [{
     estilo: "Altura:",
     declaración: "height:" }, {
 
+    estilo: "Altura mínima:",
+    declaración: "minHeight:" }, {
+
+    estilo: "Altura máxima:",
+    declaración: "maxHeight:" }, {
+
     estilo: "Anchura:",
     declaración: "width:" }, {
+
+    estilo: "Anchura mínima:",
+    declaración: "minWidth:" }, {
+
+    estilo: "Anchura máxima:",
+    declaración: "maxWidth:" }, {
     /*
     | #Holgura Holgura
     -----------
