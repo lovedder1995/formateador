@@ -19,6 +19,18 @@ export default [{
 
     estilo: "Grosor de la tipografía:",
     declaración: "fontWeight:" }, {
+
+    estilo: "Rayar el texto: Por arriba.",
+    declaración: "textDecoration: \"overline\"" }, {
+
+    estilo: "Rayar el texto: Por el centro.",
+    declaración: "textDecoration: \"line-through\"" }, {
+
+    estilo: "Rayar el texto: Por abajo.",
+    declaración: "textDecoration: \"underline\"" }, {
+
+    estilo: "Rayar el texto: No.",
+    declaración: "textDecoration: \"none\"" }, {
     /*
     | #Fondo Fondo
     ---------
