@@ -43,11 +43,20 @@ export default [{
     estilo: "Imagen del fondo:",
     declaración: "backgroundImage:" }, {
     /*
-    | #Dimensiones Dimensiones
-    ---------------
-    - Dimensiones -
-    ---------------
+    | #Altura Altura
+    ----------
+    - Altura -
+    ----------
     */
+    estilo: "Altura: La necesaria para no contraer el contenido.",
+    declaración: "height: \"max-content\"" }, {
+
+    estilo: "Altura: La necesaria para contraer el contenido al máximo.",
+    declaración: "height: \"min-content\"" }, {
+
+    estilo: "Altura: La del contenido.",
+    declaración: "height: \"fit-content\"" }, {
+
     estilo: "Altura:",
     declaración: "height:" }, {
 
@@ -56,6 +65,20 @@ export default [{
 
     estilo: "Altura máxima:",
     declaración: "maxHeight:" }, {
+    /*
+    | #Anchura Anchura
+    -----------
+    - Anchura -
+    -----------
+    */
+    estilo: "Anchura: La necesaria para no contraer el contenido.",
+    declaración: "width: \"max-content\"" }, {
+
+    estilo: "Anchura: La necesaria para contraer el contenido al máximo.",
+    declaración: "width: \"min-content\"" }, {
+
+    estilo: "Anchura: La del contenido.",
+    declaración: "width: \"fit-content\"" }, {
 
     estilo: "Anchura:",
     declaración: "width:" }, {
