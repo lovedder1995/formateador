@@ -146,6 +146,66 @@ export default [{
     estilo: "Distancia entre el elemento y su contorno:",
     declaración: "outlineOffset:" }, {
     /*
+    | #Tipo_del_marco Tipo del marco
+    ------------------
+    - Tipo del marco -
+    ------------------
+    */
+    estilo: "Tipo del marco: Sólido.",
+    declaración: "borderStyle: \"solid\"" }, {
+
+    estilo: "Tipo del marco del lado izquierdo: Sólido.",
+    declaración: "borderLeftStyle: \"solid\"" }, {
+
+    estilo: "Tipo del marco del lado derecho: Sólido.",
+    declaración: "borderRightStyle: \"solid\"" }, {
+
+    estilo: "Tipo del marco del lado superior: Sólido.",
+    declaración: "borderTopStyle: \"solid\"" }, {
+
+    estilo: "Tipo del marco del lado inferior: Sólido.",
+    declaración: "borderBottomStyle: \"solid\"" }, {
+    /*
+    | #Color_del_marco Color del marco
+    -------------------
+    - Color del marco -
+    -------------------
+    */
+    estilo: "Color del marco:",
+    declaración: "borderColor:" }, {
+
+    estilo: "Color del marco del lado izquierdo:",
+    declaración: "borderLeftColor:" }, {
+
+    estilo: "Color del marco del lado derecho:",
+    declaración: "borderRightColor:" }, {
+
+    estilo: "Color del marco del lado superior:",
+    declaración: "borderTopColor:" }, {
+
+    estilo: "Color del marco del lado inferior:",
+    declaración: "borderBottomColor:" }, {
+    /*
+    | #Grosor_del_marco Grosor del marco
+    --------------------
+    - Grosor del marco -
+    --------------------
+    */
+    estilo: "Grosor del marco:",
+    declaración: "borderWidth:" }, {
+
+    estilo: "Grosor del marco del lado izquierdo:",
+    declaración: "borderLeftWidth:" }, {
+
+    estilo: "Grosor del marco del lado derecho:",
+    declaración: "borderRightWidth:" }, {
+
+    estilo: "Grosor del marco del lado superior:",
+    declaración: "borderTopWidth:" }, {
+
+    estilo: "Grosor del marco del lado inferior:",
+    declaración: "borderBottomWidth:" }, {
+    /*
     | #Redondeo_de_las_esquinas Redondeo de las esquinas
     ----------------------------
     - Redondeo de las esquinas -
@@ -153,6 +213,18 @@ export default [{
     */
     estilo: "Redondeo de las esquinas:",
     declaración: "borderRadius:" }, {
+
+    estilo: "Redondeo de la esquina superior izquierda:",
+    declaración: "borderTopLeftRadius:" }, {
+
+    estilo: "Redondeo de la esquina superior derecha:",
+    declaración: "borderTopRightRadius:" }, {
+
+    estilo: "Redondeo de la esquina inferior izquierda:",
+    declaración: "borderBottomLeftRadius:" }, {
+
+    estilo: "Redondeo de la esquina inferior derecha:",
+    declaración: "borderBottomRightRadius:" }, {
     /*
     | #Distribución_de_los_hijos Distribución de los hijos
     -----------------------------
