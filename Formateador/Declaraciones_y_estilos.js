@@ -63,8 +63,14 @@ export default [{
     estilo: "Altura mínima:",
     declaración: "minHeight:" }, {
 
+    estilo: "Altura mínima: No aplica.",
+    declaración: "minHeight: \"none\"" }, {
+
     estilo: "Altura máxima:",
     declaración: "maxHeight:" }, {
+
+    estilo: "Altura máxima: No aplica.",
+    declaración: "maxHeight: \"none\"" }, {
     /*
     | #Anchura Anchura
     -----------
@@ -86,8 +92,14 @@ export default [{
     estilo: "Anchura mínima:",
     declaración: "minWidth:" }, {
 
+    estilo: "Anchura mínima: No aplica.",
+    declaración: "minWidth: \"none\"" }, {
+
     estilo: "Anchura máxima:",
     declaración: "maxWidth:" }, {
+
+    estilo: "Anchura máxima: No aplica.",
+    declaración: "maxWidth: \"none\"" }, {
     /*
     | #Holgura Holgura
     -----------
@@ -151,6 +163,9 @@ export default [{
     - Tipo del marco -
     ------------------
     */
+    estilo: "Tipo del marco: Ninguno.",
+    declaración: "borderStyle: \"none\"" }, {
+
     estilo: "Tipo del marco: Sólido.",
     declaración: "borderStyle: \"solid\"" }, {
 
@@ -370,4 +385,60 @@ export default [{
     declaración: "left:" }, {
 
     estilo: "Ubicación del lado derecho del elemento relativa al lado derecho de su espacio reservado o su ancestro con ubicación relativa más cercano:",
-    declaración: "right:" } ]
+    declaración: "right:" }, {
+    /*
+    | #Opacidad Opacidad
+    ------------
+    - Opacidad -
+    ------------
+    */
+    estilo: "Opacidad:",
+    declaración: "opacity:" }, {
+    /*
+    | #Escala Escala
+    ----------
+    - Escala -
+    ----------
+    */
+    estilo: "Escala:",
+    declaración: "scale:" }, {
+    /*
+    | #Rotación Rotación
+    ------------
+    - Rotación -
+    ------------
+    */
+    estilo: "Rotación:",
+    declaración: "rotate:" }, {
+    /*
+    | #Desplazamiento Desplazamiento
+    ------------------
+    - Desplazamiento -
+    ------------------
+    */
+    estilo: "Desplazamiento:",
+    declaración: "translate:" }, {
+    /*
+    | #Número_en_el_grupo_de_apilamiento Número en el grupo de apilamiento
+    -------------------------------------
+    - Número en el grupo de apilamiento -
+    -------------------------------------
+    */
+    estilo: "Número en el grupo de apilamiento:",
+    declaración: "z-index:" }, {
+    /*
+    | #Duración de las transiciones Duración de las transiciones
+    --------------------------------
+    - Duración de las transiciones -
+    --------------------------------
+    */
+    estilo: "Duración de las transiciones:",
+    declaración: "transitionDuration:" }, {
+    /*
+    | #Indicación_del_cursor Indicación del cursor
+    -------------------------
+    - Indicación del cursor -
+    -------------------------
+    */
+    estilo: "Indicación del cursor: Se puede presionar.",
+    declaración: "cursor: \"pointer\"" } ]
