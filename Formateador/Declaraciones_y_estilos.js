@@ -165,6 +165,36 @@ export default [{
 
     estilo: "Tipo del marco del lado inferior: Sólido.",
     declaración: "borderBottomStyle: \"solid\"" }, {
+
+    estilo: "Tipo del marco: Discontinuo.",
+    declaración: "borderStyle: \"dashed\"" }, {
+
+    estilo: "Tipo del marco del lado izquierdo: Discontinuo.",
+    declaración: "borderLeftStyle: \"dashed\"" }, {
+
+    estilo: "Tipo del marco del lado derecho: Discontinuo.",
+    declaración: "borderRightStyle: \"dashed\"" }, {
+
+    estilo: "Tipo del marco del lado superior: Discontinuo.",
+    declaración: "borderTopStyle: \"dashed\"" }, {
+
+    estilo: "Tipo del marco del lado inferior: Discontinuo.",
+    declaración: "borderBottomStyle: \"dashed\"" }, {
+
+    estilo: "Tipo del marco: Punteado.",
+    declaración: "borderStyle: \"dotted\"" }, {
+
+    estilo: "Tipo del marco del lado izquierdo: Punteado.",
+    declaración: "borderLeftStyle: \"dotted\"" }, {
+
+    estilo: "Tipo del marco del lado derecho: Punteado.",
+    declaración: "borderRightStyle: \"dotted\"" }, {
+
+    estilo: "Tipo del marco del lado superior: Punteado.",
+    declaración: "borderTopStyle: \"dotted\"" }, {
+
+    estilo: "Tipo del marco del lado inferior: Punteado.",
+    declaración: "borderBottomStyle: \"dotted\"" }, {
     /*
     | #Color_del_marco Color del marco
     -------------------
