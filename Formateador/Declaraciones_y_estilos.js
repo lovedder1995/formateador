@@ -425,7 +425,7 @@ export default [{
     -------------------------------------
     */
     estilo: "Número en el grupo de apilamiento:",
-    declaración: "z-index:" }, {
+    declaración: "zIndex:" }, {
     /*
     | #Duración de las transiciones Duración de las transiciones
     --------------------------------
