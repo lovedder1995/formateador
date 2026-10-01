@@ -311,6 +311,12 @@ export default [{
 
     estilo: "Distribución sobre el eje transversal: De extremo a extremo.",
     declaración: "alignItems: \"stretch\"" }, {
+
+    estilo: "Hacer que los hijos salten de línea para evitar la saturación del eje principal: Sí.",
+    declaración: "flexWrap: \"wrap\"" }, {
+
+    estilo: "Hacer que los hijos salten de línea para evitar la saturación del eje principal: No.",
+    declaración: "flexWrap: \"nowrap\"" }, {
     /*
     | #Factor_de_contracción_y_expansión Factor de contracción y expansión
     -------------------------------------

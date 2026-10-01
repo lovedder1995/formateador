@@ -1,5 +1,5 @@
 # Instalación
 
 ```bash
-npm install --global github:lovedder1995/formateador#2026.4.20-1
+npm install --global github:lovedder1995/formateador#2026.10.1-1
 ```
