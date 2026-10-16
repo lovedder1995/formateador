@@ -1,6 +1,6 @@
 {
   "name": "formateador",
-  "version": "2026.10.1-1",
+  "version": "2026.10.15-1",
   "type": "module",
   "bin": {
     "formatear": "Formateador.js"
@@ -17,6 +17,7 @@
     "ignore": "^7.0.5"
   },
   "devDependencies": {
-    "generador-de-circuitos": "github:lovedder1995/generador-de-circuitos#2026.3.20-1"
+    "generador-de-circuitos": "github:lovedder1995/generador-de-circuitos#2026.3.20-1",
+    "typescript-eslint": "^8.71.2"
   }
 }

@@ -1,6 +1,8 @@
 import js from "@eslint/js"
+import tseslint from "typescript-eslint"
 import stylistic from "@stylistic/eslint-plugin"
 import globals from "globals"
+
 export default [
 /*
 | .Configuración_de_ESLint 📝 Configuración de ESLint
@@ -12,14 +14,17 @@ export default [
     | #Ajustes_recomendados_para_JavaScript ⚙️ Ajustes recomendados para JavaScript
     [ Ajustes recomendados para JavaScript ]
     */
-    /* Usar la configuración recomendada */ js.configs.recommended, {
+    /* Usar la configuración recomendada para JavaScript */ js.configs.recommended,
+    /* y TypeScript */ ...tseslint.configs.recommended, {
         /*
         | #Archivos_para_analizar ⚙️ Archivos para analizar
         [ Archivos para analizar ]
         */
         /* Analizar los archivos con las siguientes extensiones: */ files: [
             "**/*.js",
-            "**/*.mjs" ],
+            "**/*.mjs",
+            "**/*.ts",
+            "**/*.mts"],
         /*
         | #JavaScript 📝 JavaScript
         --------------
@@ -37,6 +42,7 @@ export default [
             [ Sistema de módulos ]
             */
             /* ECMAScript */ sourceType: "module",
+            parser: tseslint.parser,
             /*
             | #Entornos ⚙️ Entornos
             [ Entornos ]
